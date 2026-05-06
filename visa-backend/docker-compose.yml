@@ -13,8 +13,6 @@ services:
       MYSQL_USER: ${MYSQL_APP_USER:-visago_app}
       MYSQL_PASSWORD: ${MYSQL_APP_PASS:-visago_app_123}
       TZ: ${TZ:-Asia/Shanghai}
-    ports:
-      - "${MYSQL_PORT:-3306}:3306"
     volumes:
       - mysql-data:/var/lib/mysql
     healthcheck:

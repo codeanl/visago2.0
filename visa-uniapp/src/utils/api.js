@@ -1,6 +1,6 @@
 import { getAuthToken, logoutSession, LOGIN_PAGE, setAuthUser } from './auth'
 
-const BASE = (import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8080/api').replace(/\/+$/, '')
+const BASE = (import.meta.env.VITE_API_BASE || 'https://visagoapi.nova2026.top/api').replace(/\/+$/, '')
 
 function withPath(path) {
   return `${BASE}${path.startsWith('/') ? path : `/${path}`}`

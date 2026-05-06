@@ -1,6 +1,6 @@
 import { clearAdminSession, getAdminToken } from '../auth'
 
-const API_BASE = import.meta.env.VITE_API_BASE || '/api'
+const API_BASE = (import.meta.env.VITE_API_BASE || 'https://visagoapi.nova2026.top/api').replace(/\/+$/, '')
 
 function buildHeaders(options = {}) {
   const headers = new Headers(options.headers || {})

@@ -208,7 +208,7 @@ import { api } from '../../../../utils/api'
 import { getAuthUser, getAuthToken, isLoggedIn, LOGIN_PAGE } from '../../../../utils/auth'
 import { applyTheme, getStoredTheme, THEME_CHANGE_EVENT } from '../../../../utils/theme'
 
-const API_BASE = (import.meta.env.VITE_API_BASE || 'http://127.0.0.1:8080/api').replace(/\/+$/, '')
+const API_BASE = (import.meta.env.VITE_API_BASE || 'https://visagoapi.nova2026.top/api').replace(/\/+$/, '')
 
 function reportCommentFallback(commentId, payload = {}) {
   const token = getAuthToken()

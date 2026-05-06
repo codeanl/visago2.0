@@ -1,0 +1,11 @@
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_API_BASE: ${VITE_API_BASE:-https://visagoapi.nova2026.top/api}
+    container_name: visago-admin
+    restart: unless-stopped
+    ports:
+      - "10010:10010"
