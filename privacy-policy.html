@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visago 隐私政策</title>
+  <meta name="description" content="Visago 隐私政策，说明我们如何收集、使用、存储与保护你的个人信息。">
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --surface-soft: #eef3fb;
+      --text: #172033;
+      --muted: #667085;
+      --line: #dbe3f0;
+      --primary: #0f65d8;
+      --primary-soft: rgba(15, 101, 216, 0.1);
+      --shadow: 0 12px 32px rgba(20, 31, 56, 0.08);
+      --radius: 20px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: linear-gradient(180deg, #f8fbff 0%, var(--bg) 100%);
+      color: var(--text);
+    }
+
+    .page {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 72px;
+    }
+
+    .hero {
+      background: radial-gradient(circle at top right, rgba(15, 101, 216, 0.15), transparent 34%), var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 32px 28px;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    h1 {
+      margin: 18px 0 12px;
+      font-size: clamp(30px, 5vw, 42px);
+      line-height: 1.16;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    .meta-item {
+      padding: 10px 14px;
+      border-radius: 14px;
+      background: var(--surface-soft);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .content {
+      margin-top: 22px;
+      display: grid;
+      gap: 16px;
+    }
+
+    .section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px 22px;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
+
+    .section-index {
+      width: 38px;
+      height: 38px;
+      border-radius: 14px;
+      background: var(--primary-soft);
+      color: var(--primary);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .section h2 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.3;
+    }
+
+    .section p,
+    .section li {
+      font-size: 15px;
+      line-height: 1.9;
+      color: var(--muted);
+    }
+
+    .section p {
+      margin: 0;
+    }
+
+    .section ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .section ul + p,
+    .section p + ul,
+    .section p + p {
+      margin-top: 10px;
+    }
+
+    .contact {
+      margin-top: 22px;
+      background: linear-gradient(135deg, #0f65d8 0%, #0b5ac0 100%);
+      border-radius: 24px;
+      color: #fff;
+      padding: 24px 22px;
+      box-shadow: 0 18px 36px rgba(15, 101, 216, 0.24);
+    }
+
+    .contact h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+    }
+
+    .contact p {
+      margin: 0;
+      line-height: 1.85;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .contact a {
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        width: min(100% - 24px, 920px);
+        padding: 24px 0 40px;
+      }
+
+      .hero,
+      .section,
+      .contact {
+        padding: 20px 18px;
+      }
+
+      .section h2 {
+        font-size: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">Visago Privacy Policy</div>
+      <h1>Visago 隐私政策</h1>
+      <p class="lead">
+        欢迎使用 Visago。我们重视你的个人信息与隐私安全。本隐私政策用于说明我们如何收集、使用、存储、保护及处理你在使用 Visago 产品与服务过程中提供或产生的相关信息。
+      </p>
+      <div class="meta">
+        <div class="meta-item">生效日期：2026-05-06</div>
+        <div class="meta-item">适用范围：Visago iOS App 与相关服务</div>
+        <div class="meta-item">更新频率：如功能或合规要求变化时更新</div>
+      </div>
+    </section>
+
+    <section class="content">
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">01</div>
+          <h2>我们收集哪些信息</h2>
+        </div>
+        <p>为了向你提供账号、签证工具、社区互动与安全保障等服务，我们可能收集以下类型的信息：</p>
+        <ul>
+          <li>账号与身份信息：如手机号、昵称、头像、登录凭证等。</li>
+          <li>你主动提交的内容：如社区帖子、评论、上传图片、签证计划信息、收藏记录等。</li>
+          <li>服务运行所需信息：如设备型号、系统版本、应用版本、网络状态、错误日志等必要技术信息。</li>
+          <li>本地偏好设置：如主题模式、部分提醒开关等仅用于改善使用体验的本地配置。</li>
+        </ul>
+      </article>
+
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">02</div>
+          <h2>我们如何使用这些信息</h2>
+        </div>
+        <ul>
+          <li>为你创建、维护与验证账号登录状态。</li>
+          <li>提供签证查询、计划管理、收藏、社区发布与互动等核心功能。</li>
+          <li>处理你上传的头像、帖子图片、评论图片等内容。</li>
+          <li>保障账号与服务安全，例如识别异常登录、处理举报、审计违规行为。</li>
+          <li>改进产品体验、排查故障、维护服务稳定性。</li>
+        </ul>
+      </article>
+
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">03</div>
+          <h2>图片与文件上传说明</h2>
+        </div>
+        <p>
+          当你上传头像或社区图片时，相关图片文件会被上传至我们的云存储服务，以便完成头像展示、社区展示与内容访问。我们仅在实现对应功能所必要的范围内处理这些图片内容，不会将其用于与你操作无关的用途。
+        </p>
+      </article>
+
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">04</div>
+          <h2>我们如何共享、转让或披露信息</h2>
+        </div>
+        <p>除以下情况外，我们不会向无关第三方出售你的个人信息：</p>
+        <ul>
+          <li>获得你的明确授权或同意。</li>
+          <li>为完成图片存储、服务器托管、基础运维等必要服务，而由受约束的技术服务供应商提供支持。</li>
+          <li>根据法律法规、监管要求、司法或行政机关要求进行披露。</li>
+          <li>为保障平台、用户或公众的人身财产安全所必需的合理披露。</li>
+        </ul>
+      </article>
+
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">05</div>
+          <h2>信息存储与安全措施</h2>
+        </div>
+        <ul>
+          <li>我们会在实现服务所必需的期限内保存你的相关信息，法律法规另有要求的除外。</li>
+          <li>我们通过访问控制、鉴权机制、最小权限原则、日志审计与安全配置等措施降低数据被未授权访问的风险。</li>
+          <li>尽管我们会采取合理安全措施，但互联网传输与存储无法做到绝对安全，请你妥善保管账号密码与设备访问权限。</li>
+        </ul>
+      </article>
+
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">06</div>
+          <h2>你的权利</h2>
+        </div>
+        <p>你可以依法行使对个人信息的相关权利，包括但不限于：</p>
+        <ul>
+          <li>访问、查看和更新你的账号资料。</li>
+          <li>删除你在社区发布的内容或管理你的收藏信息。</li>
+          <li>在 App 内发起账号注销申请。</li>
+          <li>在符合法律法规要求的情况下，向我们申请删除与你相关的个人信息。</li>
+        </ul>
+      </article>
+
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">07</div>
+          <h2>账号注销与数据处理</h2>
+        </div>
+        <p>
+          你可以在 App 内通过“我的 → 隐私与安全 → 注销账户”发起注销。为保护账号安全，注销前需要校验当前密码。账号注销后，我们将根据产品设计与法律要求处理与你账号关联的数据，包括账号信息、计划记录、社区帖子、评论、收藏、举报及相关关联记录。法律法规另有规定或为履行合规义务必须保留的内容除外。
+        </p>
+      </article>
+
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">08</div>
+          <h2>未成年人保护</h2>
+        </div>
+        <p>
+          若你是未成年人，请在监护人陪同下阅读并决定是否使用本服务。若我们发现未经适当监护同意收集了未成年人的个人信息，将在法律法规要求范围内尽快处理。
+        </p>
+      </article>
+
+      <article class="section">
+        <div class="section-head">
+          <div class="section-index">09</div>
+          <h2>本政策的更新</h2>
+        </div>
+        <p>
+          我们可能根据产品变化、法律法规要求或业务调整对本隐私政策进行更新。更新后的版本会发布在本页面，并在必要时通过 App 内适当方式提醒你。更新后的政策自发布之日起生效。
+        </p>
+      </article>
+    </section>
+
+    <section class="contact">
+      <h2>联系我们</h2>
+      <p>
+        如果你对本隐私政策、个人信息处理规则或数据安全事项有任何疑问、意见或申请，可以通过以下方式联系我们：<br>
+        联系邮箱：<a href="mailto:jiaanliao23@gmail.com">jiaanliao23@gmail.com</a>
+      </p>
+    </section>
+
+    <div class="footer">
+      本页面用于 App Store Connect 隐私政策 URL 与公开展示用途。
+    </div>
+  </main>
+</body>
+</html>

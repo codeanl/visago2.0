@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-background": "#ffffff",
+                    "inverse-on-surface": "#f1f0f5",
+                    "tertiary-fixed-dim": "#53e16f",
+                    "on-tertiary": "#ffffff",
+                    "background": "#000000",
+                    "tertiary-container": "#008733",
+                    "on-primary-fixed": "#001a41",
+                    "surface-container-high": "#1c1c1e",
+                    "on-primary-container": "#fefcff",
+                    "on-secondary-container": "#fffbff",
+                    "on-secondary-fixed": "#0c006a",
+                    "surface-container-low": "#0a0a0a",
+                    "on-tertiary-fixed": "#002107",
+                    "on-surface-variant": "#a1a7b5",
+                    "inverse-surface": "#f2f2f7",
+                    "surface-container-lowest": "#000000",
+                    "secondary-fixed": "#e2dfff",
+                    "on-surface": "#ffffff",
+                    "on-secondary-fixed-variant": "#3631b4",
+                    "surface-bright": "#1c1c1e",
+                    "secondary-container": "#6664e4",
+                    "surface": "#000000",
+                    "surface-container": "#121212",
+                    "on-secondary": "#ffffff",
+                    "tertiary-fixed": "#72fe88",
+                    "on-tertiary-fixed-variant": "#00531c",
+                    "inverse-primary": "#adc6ff",
+                    "primary-container": "#0070eb",
+                    "primary-fixed": "#d8e2ff",
+                    "on-error-container": "#93000a",
+                    "secondary": "#4c4aca",
+                    "on-primary": "#ffffff",
+                    "surface-variant": "#2c2c2e",
+                    "surface-tint": "#005bc1",
+                    "primary-fixed-dim": "#adc6ff",
+                    "surface-dim": "#0a0a0a",
+                    "primary": "#0058bc",
+                    "surface-container-highest": "#3a3a3c",
+                    "on-error": "#ffffff",
+                    "secondary-fixed-dim": "#c2c1ff",
+                    "error-container": "#ffdad6",
+                    "error": "#ba1a1a",
+                    "outline": "#48484a",
+                    "tertiary": "#006b27",
+                    "on-primary-fixed-variant": "#004493",
+                    "on-tertiary-container": "#f7fff2",
+                    "outline-variant": "#3a3a3c"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "gutter": "16px",
+                    "margin-desktop": "40px",
+                    "md": "16px",
+                    "base": "8px",
+                    "sm": "12px",
+                    "margin-mobile": "16px",
+                    "xs": "4px",
+                    "xl": "32px",
+                    "lg": "24px"
+            },
+            "fontFamily": {
+                    "headline-md": ["Inter"],
+                    "label-sm": ["Inter"],
+                    "headline-lg": ["Inter"],
+                    "headline-xl": ["Inter"],
+                    "label-md": ["Inter"],
+                    "body-md": ["Inter"],
+                    "body-lg": ["Inter"]
+            },
+            "fontSize": {
+                    "headline-md": ["22px", {"lineHeight": "28px", "letterSpacing": "-0.4px", "fontWeight": "600"}],
+                    "label-sm": ["11px", {"lineHeight": "13px", "letterSpacing": "0.06px", "fontWeight": "600"}],
+                    "headline-lg": ["28px", {"lineHeight": "34px", "letterSpacing": "-0.4px", "fontWeight": "700"}],
+                    "headline-xl": ["34px", {"lineHeight": "41px", "letterSpacing": "-0.4px", "fontWeight": "700"}],
+                    "label-md": ["13px", {"lineHeight": "18px", "letterSpacing": "0px", "fontWeight": "500"}],
+                    "body-md": ["15px", {"lineHeight": "20px", "letterSpacing": "-0.2px", "fontWeight": "400"}],
+                    "body-lg": ["17px", {"lineHeight": "22px", "letterSpacing": "-0.4px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .glass-card {
+            background: rgba(28, 28, 30, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="font-body-md text-on-surface">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-black/80 backdrop-blur-md border-b border-white/10 shadow-sm flex justify-between items-center px-4 h-14">
+<div class="flex items-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-primary" data-icon="arrow_back">arrow_back</span>
+</div>
+<h1 class="text-lg font-bold text-white font-headline-md tracking-tight">照片指南</h1>
+<div class="flex items-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-primary" data-icon="help_outline">help_outline</span>
+</div>
+</header>
+<main class="pt-20 pb-24 px-margin-mobile max-w-2xl mx-auto space-y-lg">
+<!-- Search & Country Picker Section -->
+<section class="space-y-md">
+<div class="relative">
+<div class="absolute inset-y-0 left-3 flex items-center pointer-events-none">
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]" data-icon="search">search</span>
+</div>
+<input class="w-full h-11 bg-surface-container-high border-none rounded-xl pl-10 pr-4 text-body-md focus:ring-2 focus:ring-primary text-on-surface placeholder-on-surface-variant" placeholder="搜索签证类型或国家..." type="text"/>
+</div>
+<div class="glass-card rounded-xl p-md flex items-center justify-between border border-white/5 active:bg-surface-container-highest transition-colors">
+<div class="flex items-center gap-md">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest flex items-center justify-center overflow-hidden">
+<img alt="USA Flag" class="w-full h-full object-cover" data-alt="US flag with stars and stripes representing country selection" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB3kMgX5tFw2pNs1J9q0BSoz5qldEKdMm4iIGp4PHRSTNhhr9wxSlsdVhp1-P5Pi4xWB5Y4yB-M6pcd5FfXxZKKfuY147_RFr-aopt6hgB96PfQkBRTzQajubDQ6w19Bsd8P0HgMar7Zw-ZeZPVhwLCuDymgBIxtytU3PV5cL_pOcAP7a0ZfcgkCf9qli6V_bBUy9fSENiiBV3j7DNsU9PLuHjJp9vwcqcPFcpzsjNJCNFMcpe7l_r0iyaP4m04eZFOO5JQU7CKK7Y"/>
+</div>
+<div>
+<p class="font-label-md text-on-surface">美国</p>
+<p class="text-label-sm text-on-surface-variant">旅游签证 (B1/B2)</p>
+</div>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="expand_more">expand_more</span>
+</div>
+</section>
+<!-- Visual Hero Example -->
+<section class="relative aspect-[16/10] rounded-xl overflow-hidden shadow-xl border border-white/10">
+<img class="w-full h-full object-cover grayscale-[0.2]" data-alt="Portrait of a person with neutral expression and plain white background for official document photo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAarrOiQijYgd-w4WrHsNAYIxZyixsKK4-uObNb-9DFRnBjqnpSZyoNhte4OgCzMJvZboiDW53k2y2fF3HSD0cjmVs4xpni8ZGB336Ywer7gknTU5NKiGMxCbwQcXBOmQrBTaXQQHsBvsCl11e4AQ1sYHo3oJZttqZwaiuk3aBBFVuTP8BExx5Nf1rJS9-WQlsyc0yhUznPt0GSuZYEn38iR6DdvdFevdV5YEZ6J8Xq4KrabNY6ntH57QQKQ0cjsCyf6FP2lxPMJg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-md">
+<div class="flex items-center gap-xs mb-xs">
+<span class="material-symbols-outlined text-tertiary text-sm" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+<span class="text-label-sm text-white uppercase tracking-wider">理想样本</span>
+</div>
+<p class="text-body-md text-white/80">面部特征清晰，背景中性，2x2 英寸。</p>
+</div>
+</section>
+<!-- Requirements Bento Grid -->
+<section class="grid grid-cols-2 gap-md">
+<!-- Size Requirement -->
+<div class="glass-card p-md rounded-xl border border-white/5 space-y-sm">
+<div class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="straighten">straighten</span>
+</div>
+<div>
+<h3 class="font-label-md text-white">尺寸</h3>
+<p class="text-label-sm text-on-surface-variant">51 x 51 毫米 (2 x 2 英寸)</p>
+</div>
+</div>
+<!-- Background Requirement -->
+<div class="glass-card p-md rounded-xl border border-white/5 space-y-sm">
+<div class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="wallpaper">wallpaper</span>
+</div>
+<div>
+<h3 class="font-label-md text-white">背景</h3>
+<p class="text-label-sm text-on-surface-variant">纯白色或乳白色</p>
+</div>
+</div>
+<!-- Expression Requirement -->
+<div class="glass-card p-md rounded-xl border border-white/5 space-y-sm">
+<div class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="mood">mood</span>
+</div>
+<div>
+<h3 class="font-label-md text-white">表情</h3>
+<p class="text-label-sm text-on-surface-variant">表情自然，双眼睁开</p>
+</div>
+</div>
+<!-- Recency Requirement -->
+<div class="glass-card p-md rounded-xl border border-white/5 space-y-sm">
+<div class="w-8 h-8 rounded-lg bg-primary/20 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-xl" data-icon="history">history</span>
+</div>
+<div>
+<h3 class="font-label-md text-white">时效</h3>
+<p class="text-label-sm text-on-surface-variant">最近 6 个月内拍摄</p>
+</div>
+</div>
+</section>
+<!-- Detailed Checklist (iOS InsetLayout Style) -->
+<section class="space-y-sm">
+<h2 class="text-label-sm text-on-surface-variant uppercase tracking-widest px-xs">合规清单</h2>
+<div class="bg-surface-container-high rounded-xl overflow-hidden border border-white/5">
+<!-- Row 1 -->
+<div class="flex items-center justify-between p-md border-b border-white/5 active:bg-surface-container-highest transition-colors">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-primary" data-icon="face">face</span>
+<span class="text-body-md text-on-surface">头部居中且比例合适</span>
+</div>
+<span class="material-symbols-outlined text-primary" data-icon="check_circle" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<!-- Row 2 -->
+<div class="flex items-center justify-between p-md border-b border-white/5 active:bg-surface-container-highest transition-colors">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="glasses">eyeglasses</span>
+<span class="text-body-md text-on-surface">不允许戴眼镜</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="info">info</span>
+</div>
+<!-- Row 3 -->
+<div class="flex items-center justify-between p-md border-b border-white/5 active:bg-surface-container-highest transition-colors">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="account_box">account_box</span>
+<span class="text-body-md text-on-surface">数字文件大小 &lt; 240KB</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="pending">pending</span>
+</div>
+<!-- Row 4 -->
+<div class="flex items-center justify-between p-md active:bg-surface-container-highest transition-colors">
+<div class="flex items-center gap-md">
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="print">print</span>
+<span class="text-body-md text-on-surface">高分辨率，无噪点</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant" data-icon="circle">circle</span>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="pt-md pb-xl">
+<button class="w-full h-14 bg-primary text-white font-bold rounded-xl shadow-lg shadow-primary/20 flex items-center justify-center gap-md active:scale-[0.98] transition-transform"><span class="material-symbols-outlined" data-icon="photo_camera" style="font-variation-settings: 'FILL' 1;">photo_camera</span> 拍摄或上传照片</button>
+<p class="text-center text-label-sm text-on-surface-variant mt-md">Visago 使用 AI 立即验证您的照片。</p>
+</section>
+</main>
+<!-- BottomNavBar -->
+<nav class="fixed bottom-0 left-0 w-full h-16 bg-black/90 backdrop-blur-lg flex justify-around items-center px-6 pb-safe border-t border-white/10 z-50">
+<button class="flex flex-col items-center justify-center text-slate-400 active:scale-90 transition-transform">
+<span class="material-symbols-outlined" data-icon="home">home</span>
+<span class="text-[11px] font-medium mt-1">首页</span>
+</button>
+<button class="flex flex-col items-center justify-center text-blue-400 active:scale-90 transition-transform">
+<span class="material-symbols-outlined" data-icon="search" style="font-variation-settings: 'FILL' 1;">search</span>
+<span class="text-[11px] font-medium mt-1">搜索</span>
+</button>
+<button class="flex flex-col items-center justify-center text-slate-400 active:scale-90 transition-transform">
+<span class="material-symbols-outlined" data-icon="photo_camera">photo_camera</span>
+<span class="text-[11px] font-medium mt-1">上传</span>
+</button>
+<button class="flex flex-col items-center justify-center text-slate-400 active:scale-90 transition-transform">
+<span class="material-symbols-outlined" data-icon="person">person</span>
+<span class="text-[11px] font-medium mt-1">我的</span>
+</button>
+</nav>
+</body></html>

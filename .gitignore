@@ -1,0 +1,31 @@
+# temp runtime data
+tmp_indexeddb_copy/
+tmp_localstorage_copy/
+
+# dependencies
+**/node_modules/
+
+# build output
+**/dist/
+
+# local env and certificates
+.env
+**/.env
+*.p12
+*.mobileprovision
+
+# logs
+*.log
+*.out
+*.err
+
+# binaries
+*.exe
+*.exe~
+
+# uploaded/runtime files
+**/uploads/
+
+# misc
+.DS_Store
+Thumbs.db

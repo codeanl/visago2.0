@@ -1,0 +1,11 @@
+.git
+.gitignore
+server.exe
+server.exe~
+backend.log
+backend.err.log
+backend-live.log
+backend-live.err.log
+uploads/*
+!uploads/.gitkeep
+README.md

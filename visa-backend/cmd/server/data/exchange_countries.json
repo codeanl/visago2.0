@@ -1,0 +1,2225 @@
+[
+  {
+    "countryCode": "AL",
+    "countryName": "阿尔巴尼亚",
+    "englishName": "Albania",
+    "currencyCode": "ALL",
+    "currencyName": "Albanian lek",
+    "currencySymbol": "L",
+    "supported": true
+  },
+  {
+    "countryCode": "DZ",
+    "countryName": "阿尔及利亚",
+    "englishName": "Algeria",
+    "currencyCode": "DZD",
+    "currencyName": "Algerian dinar",
+    "currencySymbol": "د.ج",
+    "supported": true
+  },
+  {
+    "countryCode": "AF",
+    "countryName": "阿富汗",
+    "englishName": "Afghanistan",
+    "currencyCode": "AFN",
+    "currencyName": "Afghan afghani",
+    "currencySymbol": "؋",
+    "supported": true
+  },
+  {
+    "countryCode": "AR",
+    "countryName": "阿根廷",
+    "englishName": "Argentina",
+    "currencyCode": "ARS",
+    "currencyName": "Argentine peso",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "AE",
+    "countryName": "阿拉伯联合酋长国",
+    "englishName": "United Arab Emirates",
+    "currencyCode": "AED",
+    "currencyName": "United Arab Emirates dirham",
+    "currencySymbol": "د.إ",
+    "supported": true
+  },
+  {
+    "countryCode": "AW",
+    "countryName": "阿鲁巴",
+    "englishName": "Aruba",
+    "currencyCode": "AWG",
+    "currencyName": "Aruban florin",
+    "currencySymbol": "ƒ",
+    "supported": true
+  },
+  {
+    "countryCode": "OM",
+    "countryName": "阿曼",
+    "englishName": "Oman",
+    "currencyCode": "OMR",
+    "currencyName": "Omani rial",
+    "currencySymbol": "ر.ع.",
+    "supported": true
+  },
+  {
+    "countryCode": "AZ",
+    "countryName": "阿塞拜疆",
+    "englishName": "Azerbaijan",
+    "currencyCode": "AZN",
+    "currencyName": "Azerbaijani manat",
+    "currencySymbol": "₼",
+    "supported": true
+  },
+  {
+    "countryCode": "EG",
+    "countryName": "埃及",
+    "englishName": "Egypt",
+    "currencyCode": "EGP",
+    "currencyName": "Egyptian pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "ET",
+    "countryName": "埃塞俄比亚",
+    "englishName": "Ethiopia",
+    "currencyCode": "ETB",
+    "currencyName": "Ethiopian birr",
+    "currencySymbol": "Br",
+    "supported": true
+  },
+  {
+    "countryCode": "IE",
+    "countryName": "爱尔兰",
+    "englishName": "Ireland",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "EE",
+    "countryName": "爱沙尼亚",
+    "englishName": "Estonia",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "AD",
+    "countryName": "安道尔",
+    "englishName": "Andorra",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "AO",
+    "countryName": "安哥拉",
+    "englishName": "Angola",
+    "currencyCode": "AOA",
+    "currencyName": "Angolan kwanza",
+    "currencySymbol": "Kz",
+    "supported": true
+  },
+  {
+    "countryCode": "AI",
+    "countryName": "安圭拉",
+    "englishName": "Anguilla",
+    "currencyCode": "XCD",
+    "currencyName": "Eastern Caribbean dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "AG",
+    "countryName": "安提瓜和巴布达",
+    "englishName": "Antigua and Barbuda",
+    "currencyCode": "XCD",
+    "currencyName": "Eastern Caribbean dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "AT",
+    "countryName": "奥地利",
+    "englishName": "Austria",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "AX",
+    "countryName": "奥兰群岛",
+    "englishName": "Åland Islands",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "AU",
+    "countryName": "澳大利亚",
+    "englishName": "Australia",
+    "currencyCode": "AUD",
+    "currencyName": "Australian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "BB",
+    "countryName": "巴巴多斯",
+    "englishName": "Barbados",
+    "currencyCode": "BBD",
+    "currencyName": "Barbadian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "PG",
+    "countryName": "巴布亚新几内亚",
+    "englishName": "Papua New Guinea",
+    "currencyCode": "PGK",
+    "currencyName": "Papua New Guinean kina",
+    "currencySymbol": "K",
+    "supported": true
+  },
+  {
+    "countryCode": "BS",
+    "countryName": "巴哈马",
+    "englishName": "Bahamas",
+    "currencyCode": "BSD",
+    "currencyName": "Bahamian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "PK",
+    "countryName": "巴基斯坦",
+    "englishName": "Pakistan",
+    "currencyCode": "PKR",
+    "currencyName": "Pakistani rupee",
+    "currencySymbol": "₨",
+    "supported": true
+  },
+  {
+    "countryCode": "PY",
+    "countryName": "巴拉圭",
+    "englishName": "Paraguay",
+    "currencyCode": "PYG",
+    "currencyName": "Paraguayan guaraní",
+    "currencySymbol": "₲",
+    "supported": true
+  },
+  {
+    "countryCode": "PS",
+    "countryName": "巴勒斯坦",
+    "englishName": "Palestine",
+    "currencyCode": "EGP",
+    "currencyName": "Egyptian pound",
+    "currencySymbol": "E£",
+    "supported": true
+  },
+  {
+    "countryCode": "BH",
+    "countryName": "巴林",
+    "englishName": "Bahrain",
+    "currencyCode": "BHD",
+    "currencyName": "Bahraini dinar",
+    "currencySymbol": ".د.ب",
+    "supported": true
+  },
+  {
+    "countryCode": "PA",
+    "countryName": "巴拿马",
+    "englishName": "Panama",
+    "currencyCode": "PAB",
+    "currencyName": "Panamanian balboa",
+    "currencySymbol": "B/.",
+    "supported": true
+  },
+  {
+    "countryCode": "BR",
+    "countryName": "巴西",
+    "englishName": "Brazil",
+    "currencyCode": "BRL",
+    "currencyName": "Brazilian real",
+    "currencySymbol": "R$",
+    "supported": true
+  },
+  {
+    "countryCode": "BY",
+    "countryName": "白俄罗斯",
+    "englishName": "Belarus",
+    "currencyCode": "BYN",
+    "currencyName": "Belarusian ruble",
+    "currencySymbol": "Br",
+    "supported": true
+  },
+  {
+    "countryCode": "BM",
+    "countryName": "百慕大",
+    "englishName": "Bermuda",
+    "currencyCode": "BMD",
+    "currencyName": "Bermudian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "BG",
+    "countryName": "保加利亚",
+    "englishName": "Bulgaria",
+    "currencyCode": "BGN",
+    "currencyName": "Bulgarian lev",
+    "currencySymbol": "лв",
+    "supported": true
+  },
+  {
+    "countryCode": "MP",
+    "countryName": "北马里亚纳群岛",
+    "englishName": "Northern Mariana Islands",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "MK",
+    "countryName": "北馬其頓",
+    "englishName": "North Macedonia",
+    "currencyCode": "MKD",
+    "currencyName": "denar",
+    "currencySymbol": "den",
+    "supported": true
+  },
+  {
+    "countryCode": "BJ",
+    "countryName": "贝宁",
+    "englishName": "Benin",
+    "currencyCode": "XOF",
+    "currencyName": "West African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "BE",
+    "countryName": "比利时",
+    "englishName": "Belgium",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "IS",
+    "countryName": "冰岛",
+    "englishName": "Iceland",
+    "currencyCode": "ISK",
+    "currencyName": "Icelandic króna",
+    "currencySymbol": "kr",
+    "supported": true
+  },
+  {
+    "countryCode": "PR",
+    "countryName": "波多黎各",
+    "englishName": "Puerto Rico",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "PL",
+    "countryName": "波兰",
+    "englishName": "Poland",
+    "currencyCode": "PLN",
+    "currencyName": "Polish złoty",
+    "currencySymbol": "zł",
+    "supported": true
+  },
+  {
+    "countryCode": "BA",
+    "countryName": "波斯尼亚和黑塞哥维那",
+    "englishName": "Bosnia and Herzegovina",
+    "currencyCode": "BAM",
+    "currencyName": "Bosnia and Herzegovina convertible mark",
+    "currencySymbol": "KM",
+    "supported": true
+  },
+  {
+    "countryCode": "BO",
+    "countryName": "玻利维亚",
+    "englishName": "Bolivia",
+    "currencyCode": "BOB",
+    "currencyName": "Bolivian boliviano",
+    "currencySymbol": "Bs.",
+    "supported": true
+  },
+  {
+    "countryCode": "BZ",
+    "countryName": "伯利兹",
+    "englishName": "Belize",
+    "currencyCode": "BZD",
+    "currencyName": "Belize dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "BW",
+    "countryName": "博茨瓦纳",
+    "englishName": "Botswana",
+    "currencyCode": "BWP",
+    "currencyName": "Botswana pula",
+    "currencySymbol": "P",
+    "supported": true
+  },
+  {
+    "countryCode": "BT",
+    "countryName": "不丹",
+    "englishName": "Bhutan",
+    "currencyCode": "BTN",
+    "currencyName": "Bhutanese ngultrum",
+    "currencySymbol": "Nu.",
+    "supported": true
+  },
+  {
+    "countryCode": "BF",
+    "countryName": "布基纳法索",
+    "englishName": "Burkina Faso",
+    "currencyCode": "XOF",
+    "currencyName": "West African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "BI",
+    "countryName": "布隆迪",
+    "englishName": "Burundi",
+    "currencyCode": "BIF",
+    "currencyName": "Burundian franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "KP",
+    "countryName": "朝鲜",
+    "englishName": "North Korea",
+    "currencyCode": "KPW",
+    "currencyName": "North Korean won",
+    "currencySymbol": "₩",
+    "supported": false
+  },
+  {
+    "countryCode": "GQ",
+    "countryName": "赤道几内亚",
+    "englishName": "Equatorial Guinea",
+    "currencyCode": "XAF",
+    "currencyName": "Central African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "DK",
+    "countryName": "丹麦",
+    "englishName": "Denmark",
+    "currencyCode": "DKK",
+    "currencyName": "Danish krone",
+    "currencySymbol": "kr",
+    "supported": true
+  },
+  {
+    "countryCode": "DE",
+    "countryName": "德国",
+    "englishName": "Germany",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "TL",
+    "countryName": "东帝汶",
+    "englishName": "Timor-Leste",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "TG",
+    "countryName": "多哥",
+    "englishName": "Togo",
+    "currencyCode": "XOF",
+    "currencyName": "West African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "DM",
+    "countryName": "多米尼加",
+    "englishName": "Dominica",
+    "currencyCode": "XCD",
+    "currencyName": "Eastern Caribbean dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "DO",
+    "countryName": "多明尼加",
+    "englishName": "Dominican Republic",
+    "currencyCode": "DOP",
+    "currencyName": "Dominican peso",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "RU",
+    "countryName": "俄罗斯",
+    "englishName": "Russia",
+    "currencyCode": "RUB",
+    "currencyName": "Russian ruble",
+    "currencySymbol": "₽",
+    "supported": true
+  },
+  {
+    "countryCode": "EC",
+    "countryName": "厄瓜多尔",
+    "englishName": "Ecuador",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "ER",
+    "countryName": "厄立特里亚",
+    "englishName": "Eritrea",
+    "currencyCode": "ERN",
+    "currencyName": "Eritrean nakfa",
+    "currencySymbol": "Nfk",
+    "supported": true
+  },
+  {
+    "countryCode": "FR",
+    "countryName": "法国",
+    "englishName": "France",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "TF",
+    "countryName": "法国南部和南极土地",
+    "englishName": "French Southern and Antarctic Lands",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "FO",
+    "countryName": "法罗群岛",
+    "englishName": "Faroe Islands",
+    "currencyCode": "DKK",
+    "currencyName": "Danish krone",
+    "currencySymbol": "kr",
+    "supported": true
+  },
+  {
+    "countryCode": "PF",
+    "countryName": "法属波利尼西亚",
+    "englishName": "French Polynesia",
+    "currencyCode": "XPF",
+    "currencyName": "CFP franc",
+    "currencySymbol": "₣",
+    "supported": true
+  },
+  {
+    "countryCode": "GF",
+    "countryName": "法属圭亚那",
+    "englishName": "French Guiana",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "VA",
+    "countryName": "梵蒂冈",
+    "englishName": "Vatican City",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "PH",
+    "countryName": "菲律宾",
+    "englishName": "Philippines",
+    "currencyCode": "PHP",
+    "currencyName": "Philippine peso",
+    "currencySymbol": "₱",
+    "supported": true
+  },
+  {
+    "countryCode": "FJ",
+    "countryName": "斐济",
+    "englishName": "Fiji",
+    "currencyCode": "FJD",
+    "currencyName": "Fijian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "FI",
+    "countryName": "芬兰",
+    "englishName": "Finland",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "CV",
+    "countryName": "佛得角",
+    "englishName": "Cape Verde",
+    "currencyCode": "CVE",
+    "currencyName": "Cape Verdean escudo",
+    "currencySymbol": "Esc",
+    "supported": true
+  },
+  {
+    "countryCode": "FK",
+    "countryName": "福克兰群岛",
+    "englishName": "Falkland Islands",
+    "currencyCode": "FKP",
+    "currencyName": "Falkland Islands pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "GM",
+    "countryName": "冈比亚",
+    "englishName": "Gambia",
+    "currencyCode": "GMD",
+    "currencyName": "dalasi",
+    "currencySymbol": "D",
+    "supported": true
+  },
+  {
+    "countryCode": "CG",
+    "countryName": "刚果",
+    "englishName": "Republic of the Congo",
+    "currencyCode": "XAF",
+    "currencyName": "Central African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "CO",
+    "countryName": "哥伦比亚",
+    "englishName": "Colombia",
+    "currencyCode": "COP",
+    "currencyName": "Colombian peso",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "CR",
+    "countryName": "哥斯达黎加",
+    "englishName": "Costa Rica",
+    "currencyCode": "CRC",
+    "currencyName": "Costa Rican colón",
+    "currencySymbol": "₡",
+    "supported": true
+  },
+  {
+    "countryCode": "GD",
+    "countryName": "格林纳达",
+    "englishName": "Grenada",
+    "currencyCode": "XCD",
+    "currencyName": "Eastern Caribbean dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "GL",
+    "countryName": "格陵兰",
+    "englishName": "Greenland",
+    "currencyCode": "DKK",
+    "currencyName": "krone",
+    "currencySymbol": "kr.",
+    "supported": true
+  },
+  {
+    "countryCode": "GE",
+    "countryName": "格鲁吉亚",
+    "englishName": "Georgia",
+    "currencyCode": "GEL",
+    "currencyName": "lari",
+    "currencySymbol": "₾",
+    "supported": true
+  },
+  {
+    "countryCode": "GG",
+    "countryName": "根西岛",
+    "englishName": "Guernsey",
+    "currencyCode": "GBP",
+    "currencyName": "British pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "CU",
+    "countryName": "古巴",
+    "englishName": "Cuba",
+    "currencyCode": "CUP",
+    "currencyName": "Cuban peso",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "GP",
+    "countryName": "瓜德罗普岛",
+    "englishName": "Guadeloupe",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "GU",
+    "countryName": "关岛",
+    "englishName": "Guam",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "GY",
+    "countryName": "圭亚那",
+    "englishName": "Guyana",
+    "currencyCode": "GYD",
+    "currencyName": "Guyanese dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "KZ",
+    "countryName": "哈萨克斯坦",
+    "englishName": "Kazakhstan",
+    "currencyCode": "KZT",
+    "currencyName": "Kazakhstani tenge",
+    "currencySymbol": "₸",
+    "supported": true
+  },
+  {
+    "countryCode": "HT",
+    "countryName": "海地",
+    "englishName": "Haiti",
+    "currencyCode": "HTG",
+    "currencyName": "Haitian gourde",
+    "currencySymbol": "G",
+    "supported": true
+  },
+  {
+    "countryCode": "KR",
+    "countryName": "韩国",
+    "englishName": "South Korea",
+    "currencyCode": "KRW",
+    "currencyName": "South Korean won",
+    "currencySymbol": "₩",
+    "supported": true
+  },
+  {
+    "countryCode": "NL",
+    "countryName": "荷兰",
+    "englishName": "Netherlands",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "BQ",
+    "countryName": "荷蘭加勒比區",
+    "englishName": "Caribbean Netherlands",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "ME",
+    "countryName": "黑山",
+    "englishName": "Montenegro",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "HN",
+    "countryName": "洪都拉斯",
+    "englishName": "Honduras",
+    "currencyCode": "HNL",
+    "currencyName": "Honduran lempira",
+    "currencySymbol": "L",
+    "supported": true
+  },
+  {
+    "countryCode": "KI",
+    "countryName": "基里巴斯",
+    "englishName": "Kiribati",
+    "currencyCode": "AUD",
+    "currencyName": "Australian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "DJ",
+    "countryName": "吉布提",
+    "englishName": "Djibouti",
+    "currencyCode": "DJF",
+    "currencyName": "Djiboutian franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "KG",
+    "countryName": "吉尔吉斯斯坦",
+    "englishName": "Kyrgyzstan",
+    "currencyCode": "KGS",
+    "currencyName": "Kyrgyzstani som",
+    "currencySymbol": "с",
+    "supported": true
+  },
+  {
+    "countryCode": "GN",
+    "countryName": "几内亚",
+    "englishName": "Guinea",
+    "currencyCode": "GNF",
+    "currencyName": "Guinean franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "GW",
+    "countryName": "几内亚比绍",
+    "englishName": "Guinea-Bissau",
+    "currencyCode": "XOF",
+    "currencyName": "West African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "CA",
+    "countryName": "加拿大",
+    "englishName": "Canada",
+    "currencyCode": "CAD",
+    "currencyName": "Canadian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "GH",
+    "countryName": "加纳",
+    "englishName": "Ghana",
+    "currencyCode": "GHS",
+    "currencyName": "Ghanaian cedi",
+    "currencySymbol": "₵",
+    "supported": true
+  },
+  {
+    "countryCode": "GA",
+    "countryName": "加蓬",
+    "englishName": "Gabon",
+    "currencyCode": "XAF",
+    "currencyName": "Central African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "KH",
+    "countryName": "柬埔寨",
+    "englishName": "Cambodia",
+    "currencyCode": "KHR",
+    "currencyName": "Cambodian riel",
+    "currencySymbol": "៛",
+    "supported": true
+  },
+  {
+    "countryCode": "CZ",
+    "countryName": "捷克",
+    "englishName": "Czechia",
+    "currencyCode": "CZK",
+    "currencyName": "Czech koruna",
+    "currencySymbol": "Kč",
+    "supported": true
+  },
+  {
+    "countryCode": "ZW",
+    "countryName": "津巴布韦",
+    "englishName": "Zimbabwe",
+    "currencyCode": "ZWL",
+    "currencyName": "Zimbabwean dollar",
+    "currencySymbol": "$",
+    "supported": false
+  },
+  {
+    "countryCode": "CM",
+    "countryName": "喀麦隆",
+    "englishName": "Cameroon",
+    "currencyCode": "XAF",
+    "currencyName": "Central African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "QA",
+    "countryName": "卡塔尔",
+    "englishName": "Qatar",
+    "currencyCode": "QAR",
+    "currencyName": "Qatari riyal",
+    "currencySymbol": "ر.ق",
+    "supported": true
+  },
+  {
+    "countryCode": "KY",
+    "countryName": "开曼群岛",
+    "englishName": "Cayman Islands",
+    "currencyCode": "KYD",
+    "currencyName": "Cayman Islands dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "CC",
+    "countryName": "科科斯",
+    "englishName": "Cocos (Keeling) Islands",
+    "currencyCode": "AUD",
+    "currencyName": "Australian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "KM",
+    "countryName": "科摩罗",
+    "englishName": "Comoros",
+    "currencyCode": "KMF",
+    "currencyName": "Comorian franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "XK",
+    "countryName": "科索沃",
+    "englishName": "Kosovo",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "CI",
+    "countryName": "科特迪瓦",
+    "englishName": "Ivory Coast",
+    "currencyCode": "XOF",
+    "currencyName": "West African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "KW",
+    "countryName": "科威特",
+    "englishName": "Kuwait",
+    "currencyCode": "KWD",
+    "currencyName": "Kuwaiti dinar",
+    "currencySymbol": "د.ك",
+    "supported": true
+  },
+  {
+    "countryCode": "HR",
+    "countryName": "克罗地亚",
+    "englishName": "Croatia",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "KE",
+    "countryName": "肯尼亚",
+    "englishName": "Kenya",
+    "currencyCode": "KES",
+    "currencyName": "Kenyan shilling",
+    "currencySymbol": "Sh",
+    "supported": true
+  },
+  {
+    "countryCode": "CK",
+    "countryName": "库克群岛",
+    "englishName": "Cook Islands",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "CW",
+    "countryName": "库拉索",
+    "englishName": "Curaçao",
+    "currencyCode": "ANG",
+    "currencyName": "Netherlands Antillean guilder",
+    "currencySymbol": "ƒ",
+    "supported": true
+  },
+  {
+    "countryCode": "LV",
+    "countryName": "拉脱维亚",
+    "englishName": "Latvia",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "LS",
+    "countryName": "莱索托",
+    "englishName": "Lesotho",
+    "currencyCode": "LSL",
+    "currencyName": "Lesotho loti",
+    "currencySymbol": "L",
+    "supported": true
+  },
+  {
+    "countryCode": "LA",
+    "countryName": "老挝",
+    "englishName": "Laos",
+    "currencyCode": "LAK",
+    "currencyName": "Lao kip",
+    "currencySymbol": "₭",
+    "supported": true
+  },
+  {
+    "countryCode": "LB",
+    "countryName": "黎巴嫩",
+    "englishName": "Lebanon",
+    "currencyCode": "LBP",
+    "currencyName": "Lebanese pound",
+    "currencySymbol": "ل.ل",
+    "supported": true
+  },
+  {
+    "countryCode": "LT",
+    "countryName": "立陶宛",
+    "englishName": "Lithuania",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "LR",
+    "countryName": "利比里亚",
+    "englishName": "Liberia",
+    "currencyCode": "LRD",
+    "currencyName": "Liberian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "LY",
+    "countryName": "利比亚",
+    "englishName": "Libya",
+    "currencyCode": "LYD",
+    "currencyName": "Libyan dinar",
+    "currencySymbol": "ل.د",
+    "supported": true
+  },
+  {
+    "countryCode": "LI",
+    "countryName": "列支敦士登",
+    "englishName": "Liechtenstein",
+    "currencyCode": "CHF",
+    "currencyName": "Swiss franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "RE",
+    "countryName": "留尼旺岛",
+    "englishName": "Réunion",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "LU",
+    "countryName": "卢森堡",
+    "englishName": "Luxembourg",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "RW",
+    "countryName": "卢旺达",
+    "englishName": "Rwanda",
+    "currencyCode": "RWF",
+    "currencyName": "Rwandan franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "RO",
+    "countryName": "罗马尼亚",
+    "englishName": "Romania",
+    "currencyCode": "RON",
+    "currencyName": "Romanian leu",
+    "currencySymbol": "lei",
+    "supported": true
+  },
+  {
+    "countryCode": "MG",
+    "countryName": "马达加斯加",
+    "englishName": "Madagascar",
+    "currencyCode": "MGA",
+    "currencyName": "Malagasy ariary",
+    "currencySymbol": "Ar",
+    "supported": true
+  },
+  {
+    "countryCode": "IM",
+    "countryName": "马恩岛",
+    "englishName": "Isle of Man",
+    "currencyCode": "GBP",
+    "currencyName": "British pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "MV",
+    "countryName": "马尔代夫",
+    "englishName": "Maldives",
+    "currencyCode": "MVR",
+    "currencyName": "Maldivian rufiyaa",
+    "currencySymbol": ".ރ",
+    "supported": true
+  },
+  {
+    "countryCode": "MT",
+    "countryName": "马耳他",
+    "englishName": "Malta",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "MW",
+    "countryName": "马拉维",
+    "englishName": "Malawi",
+    "currencyCode": "MWK",
+    "currencyName": "Malawian kwacha",
+    "currencySymbol": "MK",
+    "supported": true
+  },
+  {
+    "countryCode": "MY",
+    "countryName": "马来西亚",
+    "englishName": "Malaysia",
+    "currencyCode": "MYR",
+    "currencyName": "Malaysian ringgit",
+    "currencySymbol": "RM",
+    "supported": true
+  },
+  {
+    "countryCode": "ML",
+    "countryName": "马里",
+    "englishName": "Mali",
+    "currencyCode": "XOF",
+    "currencyName": "West African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "MH",
+    "countryName": "马绍尔群岛",
+    "englishName": "Marshall Islands",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "MQ",
+    "countryName": "马提尼克",
+    "englishName": "Martinique",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "YT",
+    "countryName": "马约特",
+    "englishName": "Mayotte",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "MU",
+    "countryName": "毛里求斯",
+    "englishName": "Mauritius",
+    "currencyCode": "MUR",
+    "currencyName": "Mauritian rupee",
+    "currencySymbol": "₨",
+    "supported": true
+  },
+  {
+    "countryCode": "MR",
+    "countryName": "毛里塔尼亚",
+    "englishName": "Mauritania",
+    "currencyCode": "MRU",
+    "currencyName": "Mauritanian ouguiya",
+    "currencySymbol": "UM",
+    "supported": true
+  },
+  {
+    "countryCode": "US",
+    "countryName": "美国",
+    "englishName": "United States",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "UM",
+    "countryName": "美国本土外小岛屿",
+    "englishName": "United States Minor Outlying Islands",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "AS",
+    "countryName": "美属萨摩亚",
+    "englishName": "American Samoa",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "VI",
+    "countryName": "美属维尔京群岛",
+    "englishName": "United States Virgin Islands",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "MN",
+    "countryName": "蒙古",
+    "englishName": "Mongolia",
+    "currencyCode": "MNT",
+    "currencyName": "Mongolian tögrög",
+    "currencySymbol": "₮",
+    "supported": true
+  },
+  {
+    "countryCode": "MS",
+    "countryName": "蒙特塞拉特",
+    "englishName": "Montserrat",
+    "currencyCode": "XCD",
+    "currencyName": "Eastern Caribbean dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "BD",
+    "countryName": "孟加拉国",
+    "englishName": "Bangladesh",
+    "currencyCode": "BDT",
+    "currencyName": "Bangladeshi taka",
+    "currencySymbol": "৳",
+    "supported": true
+  },
+  {
+    "countryCode": "PE",
+    "countryName": "秘鲁",
+    "englishName": "Peru",
+    "currencyCode": "PEN",
+    "currencyName": "Peruvian sol",
+    "currencySymbol": "S/",
+    "supported": true
+  },
+  {
+    "countryCode": "FM",
+    "countryName": "密克罗尼西亚",
+    "englishName": "Micronesia",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "MM",
+    "countryName": "缅甸",
+    "englishName": "Myanmar",
+    "currencyCode": "MMK",
+    "currencyName": "Burmese kyat",
+    "currencySymbol": "Ks",
+    "supported": true
+  },
+  {
+    "countryCode": "CD",
+    "countryName": "民主刚果",
+    "englishName": "DR Congo",
+    "currencyCode": "CDF",
+    "currencyName": "Congolese franc",
+    "currencySymbol": "FC",
+    "supported": true
+  },
+  {
+    "countryCode": "MD",
+    "countryName": "摩尔多瓦",
+    "englishName": "Moldova",
+    "currencyCode": "MDL",
+    "currencyName": "Moldovan leu",
+    "currencySymbol": "L",
+    "supported": true
+  },
+  {
+    "countryCode": "MA",
+    "countryName": "摩洛哥",
+    "englishName": "Morocco",
+    "currencyCode": "MAD",
+    "currencyName": "Moroccan dirham",
+    "currencySymbol": "د.م.",
+    "supported": true
+  },
+  {
+    "countryCode": "MC",
+    "countryName": "摩纳哥",
+    "englishName": "Monaco",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "MZ",
+    "countryName": "莫桑比克",
+    "englishName": "Mozambique",
+    "currencyCode": "MZN",
+    "currencyName": "Mozambican metical",
+    "currencySymbol": "MT",
+    "supported": true
+  },
+  {
+    "countryCode": "MX",
+    "countryName": "墨西哥",
+    "englishName": "Mexico",
+    "currencyCode": "MXN",
+    "currencyName": "Mexican peso",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "NA",
+    "countryName": "纳米比亚",
+    "englishName": "Namibia",
+    "currencyCode": "NAD",
+    "currencyName": "Namibian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "ZA",
+    "countryName": "南非",
+    "englishName": "South Africa",
+    "currencyCode": "ZAR",
+    "currencyName": "South African rand",
+    "currencySymbol": "R",
+    "supported": true
+  },
+  {
+    "countryCode": "GS",
+    "countryName": "南乔治亚",
+    "englishName": "South Georgia",
+    "currencyCode": "GBP",
+    "currencyName": "British pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "SS",
+    "countryName": "南苏丹",
+    "englishName": "South Sudan",
+    "currencyCode": "SSP",
+    "currencyName": "South Sudanese pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "NR",
+    "countryName": "瑙鲁",
+    "englishName": "Nauru",
+    "currencyCode": "AUD",
+    "currencyName": "Australian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "NI",
+    "countryName": "尼加拉瓜",
+    "englishName": "Nicaragua",
+    "currencyCode": "NIO",
+    "currencyName": "Nicaraguan córdoba",
+    "currencySymbol": "C$",
+    "supported": true
+  },
+  {
+    "countryCode": "NP",
+    "countryName": "尼泊尔",
+    "englishName": "Nepal",
+    "currencyCode": "NPR",
+    "currencyName": "Nepalese rupee",
+    "currencySymbol": "₨",
+    "supported": true
+  },
+  {
+    "countryCode": "NE",
+    "countryName": "尼日尔",
+    "englishName": "Niger",
+    "currencyCode": "XOF",
+    "currencyName": "West African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "NG",
+    "countryName": "尼日利亚",
+    "englishName": "Nigeria",
+    "currencyCode": "NGN",
+    "currencyName": "Nigerian naira",
+    "currencySymbol": "₦",
+    "supported": true
+  },
+  {
+    "countryCode": "NU",
+    "countryName": "纽埃",
+    "englishName": "Niue",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "NO",
+    "countryName": "挪威",
+    "englishName": "Norway",
+    "currencyCode": "NOK",
+    "currencyName": "Norwegian krone",
+    "currencySymbol": "kr",
+    "supported": true
+  },
+  {
+    "countryCode": "NF",
+    "countryName": "诺福克岛",
+    "englishName": "Norfolk Island",
+    "currencyCode": "AUD",
+    "currencyName": "Australian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "PW",
+    "countryName": "帕劳",
+    "englishName": "Palau",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "PN",
+    "countryName": "皮特凯恩群岛",
+    "englishName": "Pitcairn Islands",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "PT",
+    "countryName": "葡萄牙",
+    "englishName": "Portugal",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "JP",
+    "countryName": "日本",
+    "englishName": "Japan",
+    "currencyCode": "JPY",
+    "currencyName": "Japanese yen",
+    "currencySymbol": "¥",
+    "supported": true
+  },
+  {
+    "countryCode": "SE",
+    "countryName": "瑞典",
+    "englishName": "Sweden",
+    "currencyCode": "SEK",
+    "currencyName": "Swedish krona",
+    "currencySymbol": "kr",
+    "supported": true
+  },
+  {
+    "countryCode": "CH",
+    "countryName": "瑞士",
+    "englishName": "Switzerland",
+    "currencyCode": "CHF",
+    "currencyName": "Swiss franc",
+    "currencySymbol": "Fr.",
+    "supported": true
+  },
+  {
+    "countryCode": "SV",
+    "countryName": "萨尔瓦多",
+    "englishName": "El Salvador",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "WS",
+    "countryName": "萨摩亚",
+    "englishName": "Samoa",
+    "currencyCode": "WST",
+    "currencyName": "Samoan tālā",
+    "currencySymbol": "T",
+    "supported": true
+  },
+  {
+    "countryCode": "RS",
+    "countryName": "塞尔维亚",
+    "englishName": "Serbia",
+    "currencyCode": "RSD",
+    "currencyName": "Serbian dinar",
+    "currencySymbol": "дин.",
+    "supported": true
+  },
+  {
+    "countryCode": "SL",
+    "countryName": "塞拉利昂",
+    "englishName": "Sierra Leone",
+    "currencyCode": "SLE",
+    "currencyName": "Leone",
+    "currencySymbol": "Le",
+    "supported": true
+  },
+  {
+    "countryCode": "SN",
+    "countryName": "塞内加尔",
+    "englishName": "Senegal",
+    "currencyCode": "XOF",
+    "currencyName": "West African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "CY",
+    "countryName": "塞浦路斯",
+    "englishName": "Cyprus",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "SC",
+    "countryName": "塞舌尔",
+    "englishName": "Seychelles",
+    "currencyCode": "SCR",
+    "currencyName": "Seychellois rupee",
+    "currencySymbol": "₨",
+    "supported": true
+  },
+  {
+    "countryCode": "SA",
+    "countryName": "沙特阿拉伯",
+    "englishName": "Saudi Arabia",
+    "currencyCode": "SAR",
+    "currencyName": "Saudi riyal",
+    "currencySymbol": "ر.س",
+    "supported": true
+  },
+  {
+    "countryCode": "BL",
+    "countryName": "圣巴泰勒米",
+    "englishName": "Saint Barthélemy",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "CX",
+    "countryName": "圣诞岛",
+    "englishName": "Christmas Island",
+    "currencyCode": "AUD",
+    "currencyName": "Australian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "ST",
+    "countryName": "圣多美和普林西比",
+    "englishName": "São Tomé and Príncipe",
+    "currencyCode": "STN",
+    "currencyName": "São Tomé and Príncipe dobra",
+    "currencySymbol": "Db",
+    "supported": true
+  },
+  {
+    "countryCode": "SH",
+    "countryName": "圣赫勒拿、阿森松和特里斯坦-达库尼亚",
+    "englishName": "Saint Helena, Ascension and Tristan da Cunha",
+    "currencyCode": "GBP",
+    "currencyName": "Pound sterling",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "KN",
+    "countryName": "圣基茨和尼维斯",
+    "englishName": "Saint Kitts and Nevis",
+    "currencyCode": "XCD",
+    "currencyName": "Eastern Caribbean dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "LC",
+    "countryName": "圣卢西亚",
+    "englishName": "Saint Lucia",
+    "currencyCode": "XCD",
+    "currencyName": "Eastern Caribbean dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "MF",
+    "countryName": "圣马丁",
+    "englishName": "Saint Martin",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "SX",
+    "countryName": "圣马丁岛",
+    "englishName": "Sint Maarten",
+    "currencyCode": "ANG",
+    "currencyName": "Netherlands Antillean guilder",
+    "currencySymbol": "ƒ",
+    "supported": true
+  },
+  {
+    "countryCode": "SM",
+    "countryName": "圣马力诺",
+    "englishName": "San Marino",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "PM",
+    "countryName": "圣皮埃尔和密克隆",
+    "englishName": "Saint Pierre and Miquelon",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "VC",
+    "countryName": "圣文森特和格林纳丁斯",
+    "englishName": "Saint Vincent and the Grenadines",
+    "currencyCode": "XCD",
+    "currencyName": "Eastern Caribbean dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "LK",
+    "countryName": "斯里兰卡",
+    "englishName": "Sri Lanka",
+    "currencyCode": "LKR",
+    "currencyName": "Sri Lankan rupee",
+    "currencySymbol": "Rs  රු",
+    "supported": true
+  },
+  {
+    "countryCode": "SK",
+    "countryName": "斯洛伐克",
+    "englishName": "Slovakia",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "SI",
+    "countryName": "斯洛文尼亚",
+    "englishName": "Slovenia",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "SJ",
+    "countryName": "斯瓦尔巴特",
+    "englishName": "Svalbard and Jan Mayen",
+    "currencyCode": "NOK",
+    "currencyName": "krone",
+    "currencySymbol": "kr",
+    "supported": true
+  },
+  {
+    "countryCode": "SZ",
+    "countryName": "斯威士兰",
+    "englishName": "Eswatini",
+    "currencyCode": "SZL",
+    "currencyName": "Swazi lilangeni",
+    "currencySymbol": "L",
+    "supported": true
+  },
+  {
+    "countryCode": "SD",
+    "countryName": "苏丹",
+    "englishName": "Sudan",
+    "currencyCode": "SDG",
+    "currencyName": "Sudanese pound",
+    "currencySymbol": "ج.س",
+    "supported": true
+  },
+  {
+    "countryCode": "SR",
+    "countryName": "苏里南",
+    "englishName": "Suriname",
+    "currencyCode": "SRD",
+    "currencyName": "Surinamese dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "SB",
+    "countryName": "所罗门群岛",
+    "englishName": "Solomon Islands",
+    "currencyCode": "SBD",
+    "currencyName": "Solomon Islands dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "SO",
+    "countryName": "索马里",
+    "englishName": "Somalia",
+    "currencyCode": "SOS",
+    "currencyName": "Somali shilling",
+    "currencySymbol": "Sh",
+    "supported": true
+  },
+  {
+    "countryCode": "TJ",
+    "countryName": "塔吉克斯坦",
+    "englishName": "Tajikistan",
+    "currencyCode": "TJS",
+    "currencyName": "Tajikistani somoni",
+    "currencySymbol": "ЅМ",
+    "supported": true
+  },
+  {
+    "countryCode": "TH",
+    "countryName": "泰国",
+    "englishName": "Thailand",
+    "currencyCode": "THB",
+    "currencyName": "Thai baht",
+    "currencySymbol": "฿",
+    "supported": true
+  },
+  {
+    "countryCode": "TZ",
+    "countryName": "坦桑尼亚",
+    "englishName": "Tanzania",
+    "currencyCode": "TZS",
+    "currencyName": "Tanzanian shilling",
+    "currencySymbol": "Sh",
+    "supported": true
+  },
+  {
+    "countryCode": "TO",
+    "countryName": "汤加",
+    "englishName": "Tonga",
+    "currencyCode": "TOP",
+    "currencyName": "Tongan paʻanga",
+    "currencySymbol": "T$",
+    "supported": true
+  },
+  {
+    "countryCode": "TC",
+    "countryName": "特克斯和凯科斯群岛",
+    "englishName": "Turks and Caicos Islands",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "TT",
+    "countryName": "特立尼达和多巴哥",
+    "englishName": "Trinidad and Tobago",
+    "currencyCode": "TTD",
+    "currencyName": "Trinidad and Tobago dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "TN",
+    "countryName": "突尼斯",
+    "englishName": "Tunisia",
+    "currencyCode": "TND",
+    "currencyName": "Tunisian dinar",
+    "currencySymbol": "د.ت",
+    "supported": true
+  },
+  {
+    "countryCode": "TV",
+    "countryName": "图瓦卢",
+    "englishName": "Tuvalu",
+    "currencyCode": "AUD",
+    "currencyName": "Australian dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "TR",
+    "countryName": "土耳其",
+    "englishName": "Turkey",
+    "currencyCode": "TRY",
+    "currencyName": "Turkish lira",
+    "currencySymbol": "₺",
+    "supported": true
+  },
+  {
+    "countryCode": "TM",
+    "countryName": "土库曼斯坦",
+    "englishName": "Turkmenistan",
+    "currencyCode": "TMT",
+    "currencyName": "Turkmenistan manat",
+    "currencySymbol": "m",
+    "supported": true
+  },
+  {
+    "countryCode": "TK",
+    "countryName": "托克劳",
+    "englishName": "Tokelau",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "WF",
+    "countryName": "瓦利斯和富图纳群岛",
+    "englishName": "Wallis and Futuna",
+    "currencyCode": "XPF",
+    "currencyName": "CFP franc",
+    "currencySymbol": "₣",
+    "supported": true
+  },
+  {
+    "countryCode": "VU",
+    "countryName": "瓦努阿图",
+    "englishName": "Vanuatu",
+    "currencyCode": "VUV",
+    "currencyName": "Vanuatu vatu",
+    "currencySymbol": "Vt",
+    "supported": true
+  },
+  {
+    "countryCode": "GT",
+    "countryName": "危地马拉",
+    "englishName": "Guatemala",
+    "currencyCode": "GTQ",
+    "currencyName": "Guatemalan quetzal",
+    "currencySymbol": "Q",
+    "supported": true
+  },
+  {
+    "countryCode": "VE",
+    "countryName": "委内瑞拉",
+    "englishName": "Venezuela",
+    "currencyCode": "VES",
+    "currencyName": "Venezuelan bolívar soberano",
+    "currencySymbol": "Bs.S.",
+    "supported": true
+  },
+  {
+    "countryCode": "BN",
+    "countryName": "文莱",
+    "englishName": "Brunei",
+    "currencyCode": "BND",
+    "currencyName": "Brunei dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "UG",
+    "countryName": "乌干达",
+    "englishName": "Uganda",
+    "currencyCode": "UGX",
+    "currencyName": "Ugandan shilling",
+    "currencySymbol": "Sh",
+    "supported": true
+  },
+  {
+    "countryCode": "UA",
+    "countryName": "乌克兰",
+    "englishName": "Ukraine",
+    "currencyCode": "UAH",
+    "currencyName": "Ukrainian hryvnia",
+    "currencySymbol": "₴",
+    "supported": true
+  },
+  {
+    "countryCode": "UY",
+    "countryName": "乌拉圭",
+    "englishName": "Uruguay",
+    "currencyCode": "UYU",
+    "currencyName": "Uruguayan peso",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "UZ",
+    "countryName": "乌兹别克斯坦",
+    "englishName": "Uzbekistan",
+    "currencyCode": "UZS",
+    "currencyName": "Uzbekistani soʻm",
+    "currencySymbol": "so'm",
+    "supported": true
+  },
+  {
+    "countryCode": "ES",
+    "countryName": "西班牙",
+    "englishName": "Spain",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "EH",
+    "countryName": "西撒哈拉",
+    "englishName": "Western Sahara",
+    "currencyCode": "DZD",
+    "currencyName": "Algerian dinar",
+    "currencySymbol": "دج",
+    "supported": true
+  },
+  {
+    "countryCode": "GR",
+    "countryName": "希腊",
+    "englishName": "Greece",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "NC",
+    "countryName": "新喀里多尼亚",
+    "englishName": "New Caledonia",
+    "currencyCode": "XPF",
+    "currencyName": "CFP franc",
+    "currencySymbol": "₣",
+    "supported": true
+  },
+  {
+    "countryCode": "NZ",
+    "countryName": "新西兰",
+    "englishName": "New Zealand",
+    "currencyCode": "NZD",
+    "currencyName": "New Zealand dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "HU",
+    "countryName": "匈牙利",
+    "englishName": "Hungary",
+    "currencyCode": "HUF",
+    "currencyName": "Hungarian forint",
+    "currencySymbol": "Ft",
+    "supported": true
+  },
+  {
+    "countryCode": "SY",
+    "countryName": "叙利亚",
+    "englishName": "Syria",
+    "currencyCode": "SYP",
+    "currencyName": "Syrian pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "JM",
+    "countryName": "牙买加",
+    "englishName": "Jamaica",
+    "currencyCode": "JMD",
+    "currencyName": "Jamaican dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "AM",
+    "countryName": "亚美尼亚",
+    "englishName": "Armenia",
+    "currencyCode": "AMD",
+    "currencyName": "Armenian dram",
+    "currencySymbol": "֏",
+    "supported": true
+  },
+  {
+    "countryCode": "YE",
+    "countryName": "也门",
+    "englishName": "Yemen",
+    "currencyCode": "YER",
+    "currencyName": "Yemeni rial",
+    "currencySymbol": "﷼",
+    "supported": true
+  },
+  {
+    "countryCode": "IQ",
+    "countryName": "伊拉克",
+    "englishName": "Iraq",
+    "currencyCode": "IQD",
+    "currencyName": "Iraqi dinar",
+    "currencySymbol": "ع.د",
+    "supported": true
+  },
+  {
+    "countryCode": "IR",
+    "countryName": "伊朗",
+    "englishName": "Iran",
+    "currencyCode": "IRR",
+    "currencyName": "Iranian rial",
+    "currencySymbol": "﷼",
+    "supported": true
+  },
+  {
+    "countryCode": "IL",
+    "countryName": "以色列",
+    "englishName": "Israel",
+    "currencyCode": "ILS",
+    "currencyName": "Israeli new shekel",
+    "currencySymbol": "₪",
+    "supported": true
+  },
+  {
+    "countryCode": "IT",
+    "countryName": "意大利",
+    "englishName": "Italy",
+    "currencyCode": "EUR",
+    "currencyName": "euro",
+    "currencySymbol": "€",
+    "supported": true
+  },
+  {
+    "countryCode": "IN",
+    "countryName": "印度",
+    "englishName": "India",
+    "currencyCode": "INR",
+    "currencyName": "Indian rupee",
+    "currencySymbol": "₹",
+    "supported": true
+  },
+  {
+    "countryCode": "ID",
+    "countryName": "印度尼西亚",
+    "englishName": "Indonesia",
+    "currencyCode": "IDR",
+    "currencyName": "Indonesian rupiah",
+    "currencySymbol": "Rp",
+    "supported": true
+  },
+  {
+    "countryCode": "GB",
+    "countryName": "英国",
+    "englishName": "United Kingdom",
+    "currencyCode": "GBP",
+    "currencyName": "British pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "VG",
+    "countryName": "英属维尔京群岛",
+    "englishName": "British Virgin Islands",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "IO",
+    "countryName": "英属印度洋领地",
+    "englishName": "British Indian Ocean Territory",
+    "currencyCode": "USD",
+    "currencyName": "United States dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "JO",
+    "countryName": "约旦",
+    "englishName": "Jordan",
+    "currencyCode": "JOD",
+    "currencyName": "Jordanian dinar",
+    "currencySymbol": "د.ا",
+    "supported": true
+  },
+  {
+    "countryCode": "VN",
+    "countryName": "越南",
+    "englishName": "Vietnam",
+    "currencyCode": "VND",
+    "currencyName": "Vietnamese đồng",
+    "currencySymbol": "₫",
+    "supported": true
+  },
+  {
+    "countryCode": "ZM",
+    "countryName": "赞比亚",
+    "englishName": "Zambia",
+    "currencyCode": "ZMW",
+    "currencyName": "Zambian kwacha",
+    "currencySymbol": "ZK",
+    "supported": true
+  },
+  {
+    "countryCode": "JE",
+    "countryName": "泽西岛",
+    "englishName": "Jersey",
+    "currencyCode": "GBP",
+    "currencyName": "British pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "TD",
+    "countryName": "乍得",
+    "englishName": "Chad",
+    "currencyCode": "XAF",
+    "currencyName": "Central African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "GI",
+    "countryName": "直布罗陀",
+    "englishName": "Gibraltar",
+    "currencyCode": "GIP",
+    "currencyName": "Gibraltar pound",
+    "currencySymbol": "£",
+    "supported": true
+  },
+  {
+    "countryCode": "CL",
+    "countryName": "智利",
+    "englishName": "Chile",
+    "currencyCode": "CLP",
+    "currencyName": "Chilean peso",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "CF",
+    "countryName": "中非共和国",
+    "englishName": "Central African Republic",
+    "currencyCode": "XAF",
+    "currencyName": "Central African CFA franc",
+    "currencySymbol": "Fr",
+    "supported": true
+  },
+  {
+    "countryCode": "CN",
+    "countryName": "China",
+    "englishName": "China",
+    "currencyCode": "CNY",
+    "currencyName": "Chinese yuan",
+    "currencySymbol": "¥",
+    "supported": true
+  },
+  {
+    "countryCode": "HK",
+    "countryName": "Hong Kong",
+    "englishName": "Hong Kong",
+    "currencyCode": "HKD",
+    "currencyName": "Hong Kong dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "MO",
+    "countryName": "Macau",
+    "englishName": "Macau",
+    "currencyCode": "MOP",
+    "currencyName": "Macanese pataca",
+    "currencySymbol": "P",
+    "supported": true
+  },
+  {
+    "countryCode": "SG",
+    "countryName": "Singapore",
+    "englishName": "Singapore",
+    "currencyCode": "SGD",
+    "currencyName": "Singapore dollar",
+    "currencySymbol": "$",
+    "supported": true
+  },
+  {
+    "countryCode": "TW",
+    "countryName": "Taiwan",
+    "englishName": "Taiwan",
+    "currencyCode": "TWD",
+    "currencyName": "New Taiwan dollar",
+    "currencySymbol": "$",
+    "supported": true
+  }
+]

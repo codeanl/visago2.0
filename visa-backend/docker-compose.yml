@@ -1,0 +1,68 @@
+services:
+  mysql:
+    image: mysql:8.4
+    container_name: visago-mysql
+    restart: unless-stopped
+    command:
+      - --default-authentication-plugin=mysql_native_password
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root123456}
+      MYSQL_DATABASE: ${MYSQL_DB:-visago}
+      MYSQL_USER: ${MYSQL_APP_USER:-visago_app}
+      MYSQL_PASSWORD: ${MYSQL_APP_PASS:-visago_app_123}
+      TZ: ${TZ:-Asia/Shanghai}
+    ports:
+      - "${MYSQL_PORT:-3306}:3306"
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -uroot -p$$MYSQL_ROOT_PASSWORD --silent"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 20s
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: visago-backend
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      APP_ADDR: :8080
+      SKIP_DB_BOOTSTRAP: "true"
+      MYSQL_DB: ${MYSQL_DB:-visago}
+      MYSQL_APP_USER: ${MYSQL_APP_USER:-visago_app}
+      MYSQL_APP_PASS: ${MYSQL_APP_PASS:-visago_app_123}
+      MYSQL_DSN: ${MYSQL_DSN:-visago_app:visago_app_123@tcp(mysql:3306)/visago?charset=utf8mb4&parseTime=true&loc=Local&multiStatements=true}
+      JWT_SECRET: ${JWT_SECRET:-visago_dev_secret}
+      ADMIN_DEFAULT_USERNAME: ${ADMIN_DEFAULT_USERNAME:-admin}
+      ADMIN_DEFAULT_NICKNAME: ${ADMIN_DEFAULT_NICKNAME:-管理员}
+      ADMIN_DEFAULT_EMAIL: ${ADMIN_DEFAULT_EMAIL:-admin@visago.com}
+      ADMIN_DEFAULT_PHONE: ${ADMIN_DEFAULT_PHONE:-}
+      ADMIN_DEFAULT_PASSWORD: ${ADMIN_DEFAULT_PASSWORD:-12345678}
+      ALIYUN_ACCESS_KEY_ID: ${ALIYUN_ACCESS_KEY_ID:-}
+      ALIYUN_ACCESS_KEY_SECRET: ${ALIYUN_ACCESS_KEY_SECRET:-}
+      ALIYUN_VIAPI_REGION: ${ALIYUN_VIAPI_REGION:-cn-shanghai}
+      ALIYUN_VIAPI_ENDPOINT: ${ALIYUN_VIAPI_ENDPOINT:-}
+      QINIU_ACCESS_KEY: ${QINIU_ACCESS_KEY:-}
+      QINIU_SECRET_KEY: ${QINIU_SECRET_KEY:-}
+      QINIU_BUCKET: ${QINIU_BUCKET:-}
+      QINIU_DOMAIN: ${QINIU_DOMAIN:-}
+      QINIU_UPLOAD_URL: ${QINIU_UPLOAD_URL:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_API_BASE_URL: ${OPENAI_API_BASE_URL:-https://api.openai.com/v1}
+      OPENAI_TRANSLATE_MODEL: ${OPENAI_TRANSLATE_MODEL:-gpt-4o-mini}
+    ports:
+      - "${APP_PORT:-8080}:8080"
+    volumes:
+      - ./uploads:/app/uploads
+
+volumes:
+  mysql-data:

@@ -1,0 +1,200 @@
+{
+  "pages": [
+    {
+      "path": "pages/visago/auth/login/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/auth/register/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/auth/forgot-password/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/visa/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/plan/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/community/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/community/publish/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/community/mine/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/community/detail/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/account/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/favorites/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/history/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/history/detail/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/settings/notify/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/settings/privacy/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/settings/privacy/delete-account/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/settings/help/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/settings/about/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/settings/about/agreement/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/profile/settings/about/privacy-policy/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/tools/exchange/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/tools/exchange-all/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/tools/embassy/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/visa-country/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    },
+    {
+      "path": "pages/visago/visa-free/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f3f2f8"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Visago",
+    "navigationBarBackgroundColor": "#f3f2f8",
+    "backgroundColor": "#f3f2f8"
+  }
+}
+
