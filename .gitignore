@@ -4,6 +4,8 @@ tmp_localstorage_copy/
 
 # dependencies
 **/node_modules/
+**/__pycache__/
+*.pyc
 
 # build output
 **/dist/
