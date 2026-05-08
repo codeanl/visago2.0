@@ -1,0 +1,45 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f5efe4"
+      }
+    },
+    {
+      "path": "pages/countries/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f5efe4"
+      }
+    },
+    {
+      "path": "pages/visas/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f5efe4"
+      }
+    },
+    {
+      "path": "pages/visa-detail/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f5efe4"
+      }
+    },
+    {
+      "path": "pages/goals/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f5efe4"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Visago 快速版",
+    "navigationBarBackgroundColor": "#f5efe4",
+    "backgroundColor": "#f5efe4"
+  }
+}

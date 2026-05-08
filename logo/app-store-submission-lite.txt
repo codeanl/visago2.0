@@ -1,0 +1,120 @@
+Visago Lite iOS Submission Notes
+适用项目：visa-uniapp-lite
+生成日期：2026-05-08
+
+一、图标文件
+1. 1024x1024 App Store 图标
+文件路径：
+D:\code\service\visa\logo\appstore-icon-1024.png
+
+说明：
+- 该图标基于现有 logo 原图导出为 1024x1024 PNG
+- 白色背景
+- 无圆角、无透明
+- 可直接用于 App Store 图标上传
+
+二、App 基本信息
+1. App 名称
+Visago 签证速查
+
+2. 副标题
+全球签证查询与目标管理
+
+3. App 描述
+Visago 签证速查是一款轻量的签证信息工具，帮助用户快速查看国家签证要求、热门目的地、签证详情与办理重点。
+
+你可以使用它：
+- 快速浏览国家与签证信息
+- 查看不同签证类型、办理时长和基础要求
+- 收藏并管理自己的签证目标
+- 在一个更轻量、更直接的界面里完成出行前的签证信息查询
+
+本版本专注于签证查询与本地目标管理，不包含社区、会员付费或复杂社交能力，适合作为快速查询型工具使用。
+
+三、App Privacy Details
+建议填写：
+Data Not Collected
+
+适用前提：
+- 当前 lite 版本没有登录、注册、支付、社区发帖、图片上传
+- 目标数据保存在本地
+- 不做广告跟踪
+- 不接入第三方行为分析或用户画像服务
+
+注意：
+如果你的生产环境后续加入以下能力，需要重新评估并更新 App Privacy：
+- 用户登录/注册
+- 图片上传
+- 社区内容
+- 埋点分析
+- 广告归因
+- 推送标识采集
+
+四、Privacy Policy URL
+建议填写：
+https://nova2026.top/privacy-policy.html
+
+说明：
+- 该链接应保证公网可访问
+- 必须为 HTTPS
+- 页面内容需与你实际服务一致
+
+五、Support URL
+建议填写：
+https://nova2026.top/support
+
+如果你暂时没有支持页，建议先做一个简单静态页，至少包含：
+- 产品名称
+- 联系邮箱
+- 常见问题入口
+
+六、Review Notes
+可直接填写：
+This app is a lightweight visa lookup tool.
+
+Main review path:
+1. Open the app.
+2. Browse hot destinations on the home page.
+3. Tap a country to view its visa list.
+4. Open a visa detail page to review visa information.
+5. Open the goals page to view locally saved visa goals.
+
+This lite version does not include:
+- account login
+- in-app purchase
+- user generated content
+- image upload
+
+Backend API used by the app:
+https://visagoapi.nova2026.top/api
+
+Privacy Policy URL:
+https://nova2026.top/privacy-policy.html
+
+七、截图建议
+建议准备 5 张 iPhone 6.7" 截图：
+
+1. 首页
+文案建议：
+热门目的地与快速签证入口
+
+2. 国家列表页
+文案建议：
+按国家快速查找签证要求
+
+3. 签证列表页
+文案建议：
+不同签证类型一目了然
+
+4. 签证详情页
+文案建议：
+查看办理重点与基础信息
+
+5. 目标页
+文案建议：
+记录你的签证目标与进度
+
+八、补充建议
+1. 若正式提审，建议把 App 内远程 Google 字体依赖去掉
+2. 若默认图仍引用第三方图片源，建议替换为本地图
+3. 请确认 Bundle ID、证书、描述文件与 manifest.json 完全一致
