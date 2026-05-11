@@ -1,0 +1,55 @@
+{
+  "name": "VisaNow uView",
+  "appid": "__UNI__VISANOW_UVIEW",
+  "description": "面向签证DIY申请的轻量查询与目标管理工具版本，优先兼容微信小程序，并兼顾H5、iOS和Android。",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "nvueStyleCompiler": "uni-app",
+    "compilerVersion": 3,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0,
+      "iosStyle": "common"
+    },
+    "modules": {},
+    "distribute": {
+      "ios": {
+        "appid": "top.nova2026.visanowuview",
+        "mobileprovision": "_production/ios/visanowuview.mobileprovision",
+        "p12": "_production/ios/visanowuview.p12",
+        "password": "__FILL_IOS_P12_PASSWORD__",
+        "devices": "iphone",
+        "deploymentTarget": "15.0",
+        "dSYMs": true,
+        "idfa": false
+      },
+      "android": {
+        "permissions": [
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>"
+        ]
+      },
+      "splashscreen": {
+        "useOriginalMsgbox": true,
+        "androidStyle": "common"
+      }
+    }
+  },
+  "quickapp": {},
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    },
+    "usingComponents": true
+  },
+  "uniStatistics": {
+    "enable": false
+  },
+  "vueVersion": "3"
+}

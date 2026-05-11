@@ -1,0 +1,45 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/countries/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/visas/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/visa-detail/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fa"
+      }
+    },
+    {
+      "path": "pages/goals/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fa"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "VisaNow Vant",
+    "navigationBarBackgroundColor": "#f7f8fa",
+    "backgroundColor": "#f7f8fa"
+  }
+}

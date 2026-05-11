@@ -1,0 +1,52 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fb"
+      }
+    },
+    {
+      "path": "pages/countries/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fb"
+      }
+    },
+    {
+      "path": "pages/visas/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fb"
+      }
+    },
+    {
+      "path": "pages/visa-detail/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fb"
+      }
+    },
+    {
+      "path": "pages/goals/index",
+      "style": {
+        "navigationStyle": "custom",
+        "backgroundColor": "#f7f8fb"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "VisaNow",
+    "navigationBarBackgroundColor": "#f7f8fb",
+    "backgroundColor": "#f7f8fb"
+  }
+}
